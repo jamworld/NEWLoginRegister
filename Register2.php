@@ -1,7 +1,7 @@
 <?php
     require("password.php");
 
-    $connect = mysqli_connect("my_host", "my_user", "my_password", "my_database");
+    $connect = mysqli_connect("mySQL.bluehost.com", "i1873835_wp1", "411033", "Genius_Tv");
     
     $name = $_POST["name"];
     $age = $_POST["age"];
